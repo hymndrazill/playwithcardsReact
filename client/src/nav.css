@@ -1,0 +1,7 @@
+.nav {
+    height: 250px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
