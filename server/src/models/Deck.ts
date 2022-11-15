@@ -7,7 +7,8 @@ const Schmea = mongoose.Schema;
 
 const DeckSchema = new Schmea({
     title: String,
-    
+    cards: [String],
+
 })
 
 
