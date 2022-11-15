@@ -25,11 +25,12 @@ form > button {
   width: 500px;
   grid-gap: 10px;
   margin: 0 auto;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .decks li {
   margin-bottom: 15px;
   justify-content: center;
+  position: relative;
   display: flex;
   align-items: center;
   color:white;
@@ -44,4 +45,12 @@ form > button {
 .decks li:hover{
   opacity: 0.4;
   cursor: pointer;
+}
+
+.decks  li button {
+  position: absolute;
+  top: 5px;
+ 
+  right: 5px;
+  font-size: 12px;
 }
