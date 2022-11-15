@@ -68,3 +68,12 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
