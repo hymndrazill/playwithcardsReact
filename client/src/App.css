@@ -28,13 +28,12 @@ form > button {
   grid-template-columns: repeat(3, 1fr);
 }
 .decks li {
-  margin-bottom: 15px;
   justify-content: center;
   position: relative;
   display: flex;
   align-items: center;
   color:white;
-  height: 300px;
+  height: 250px;
   background:black;
   border-radius: 10px;
   border:  1px solid rgb(31, 30, 30);
